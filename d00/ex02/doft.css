@@ -1,0 +1,189 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   doft.css                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: vtenigin <vtenigin@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/02/27 18:35:00 by vtenigin          #+#    #+#             */
+/*   Updated: 2017/02/27 22:46:37 by vtenigin         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+
+body {
+	background-color: #3F3F3F;
+}
+
+.topbox {
+	background-color: #8F8F8F;
+	width:85vw;
+	border-radius: 0.5vw;
+	box-shadow: 0.5vw 0.5vw 0.9vw black;
+	height: auto;
+	margin: auto;
+}
+
+#logo {
+ 	width: 25vw;
+ 	margin: 1vw;
+}
+
+
+#restart {
+	width: 1.5vw;
+	float: right;
+	margin-top: 0.5vw;
+	margin-right: 0.5vw;
+	margin-left: -1.5vw;
+}
+
+#search {
+	margin-top: 1vw;
+	width: 15vw;
+	float: right;
+}
+
+#disconnect{
+	width: 1.5vw;
+	float: right;
+	margin-top: 6.5vw;
+	margin-right: 0;
+}
+
+.leftbox {
+	background-color: #7D7D7D;
+	height: 26vw;
+	width: 7vw;
+	border-radius: 0.5vw;
+	box-shadow: 0.5vw 0.5vw 0.9vw black;
+	float: left;
+	margin-left: 8vw;
+}
+
+.picleft {
+	width: 4vw;
+	margin-top: 1vw;
+	margin-left: 1.5vw;
+	/*margin-top: 1vw;*/
+}
+
+#look{
+	border: 0.3vw solid red;
+	/*width: 65%;*/
+	border-radius: 0.5vw;
+}
+
+.centerbox {
+	position: absolute;
+	background-color :#7D7D7D;
+	height: auto;
+	width: 64vw;
+	border-radius: 0.5vw;
+	box-shadow: 0.5vw 0.5vw 0.9vw black;
+	display: inline-block;
+	float: left;
+	margin-left: 2vw;
+}
+
+#cluster {
+	width: 62vw;
+	margin-left: 1vw;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+	position: relative;
+}
+
+#ikea {
+	top: 21vw;
+	left: 21vw;
+	width: 8vw;
+	height: 14vw;
+	display: block;
+	position: absolute;
+}
+
+#apple {
+	top: 20.5vw;
+	left: 50vw;
+	width: 12vw;
+	height: 10vw;
+	display: block;
+	position: absolute;
+}
+
+.rightbox {
+	background-color: #7D7D7D;
+	height: 26vw;
+	width: 7vw;
+	border-radius: 0.5vw;
+	box-shadow: 0.5vw 0.5vw 0.9vw black;
+	margin-left: 83vw;
+}
+
+
+
+.picright {
+	width: 4vw;
+	margin-top: 1vw;
+	margin-left: 1.5vw;
+}
+
+#brick {
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("resources/brick.jpg");
+	background-size: 2vw;
+	height: 4vw;
+	width: 6vw;
+	margin-bottom: 10vw;
+}
+
+.boxbottom {
+	position: relative;
+	background-color: #72FF9C;
+	margin-top: 5vw;
+	margin-left: 5vw;
+	width: 30vw;
+	height: 10vw;
+	border-radius: 0.5vw;
+	box-shadow: 0.5vw 0.5vw 0.9vw black;
+}
+
+#ln1 {
+	margin-left: 1vw;
+	font-size: 1.1vw;
+}
+
+#redsh {
+	text-shadow: 0.3vw 0.3vw 0.3vw red;
+}
+
+#ln3 {
+	font-size: 1vw;
+	font-style: italic;
+	font-family: sans-serif;
+}
+
+#entrez {
+	font-size: 2vw;
+}
+
+#in {
+	margin-top: -1vw;
+	margin-left: 1vw;
+	height: 1.5vw;
+	width: 20vw;
+	float: left;
+}
+
+#rep {
+	margin-top: -1vw;
+	margin-left: 0.5vw;
+	height: 1.5vw;
+	font-size: 1vw;
+	padding: 0;
+	width: 6vw;
+	border: 1px solid grey;
+	float: left;
+}
