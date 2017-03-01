@@ -8,10 +8,10 @@ while (42)
 		$n = rtrim($n);
 		if (!is_numeric($n))
 			echo "'$n' is not a number\n";
-		else if ($n % 2 == 1)
-			echo "The number $n is odd\n";
-		else
+		else if ($n % 2 == 0)
 			echo "The number $n is even\n";
+		else
+			echo "The number $n is odd\n";
 	}
 	else
 	{
