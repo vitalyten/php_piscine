@@ -14,6 +14,7 @@ $i = 0;
 while (++$i < $argc)
 	$str .= " " . $argv[$i];
 $spl = ft_split($str);
-foreach ($spl as $value)
-	echo $value . "\n";
+$i = -1;
+while (++$i < count($spl))
+	echo $spl[$i] . "\n";
 ?>
