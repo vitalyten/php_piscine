@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>baloon</title>
+</head>
+<body>
+<style>
+#baloon {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	border-radius: 100%;
+}
+</style>
+<div id=baloon></div>
+<script type="text/javascript">
+	var baloon = document.getElementById("baloon");
+	baloon.addEventListener("click", function()
+	{
+		baloon.style.width = baloon.clientWidth + 10 + "px";
+		baloon.style.height = baloon.clientHeight + 10 + "px";
+		if (baloon.clientHeight > 420)
+		{
+			baloon.style.width = "200px";
+			baloon.style.height = "200px";
+		}
+		if (baloon.style.backgroundColor === "red" || baloon.style.backgroundColor === "")
+			baloon.style.backgroundColor = "green";
+		else if (baloon.style.backgroundColor === "green")
+			baloon.style.backgroundColor = "blue";
+		else if (baloon.style.backgroundColor === "blue")
+			baloon.style.backgroundColor = "red";
+	});
+
+	baloon.addEventListener("mouseout", function()
+	{
+		if (baloon.clientHeight > 200)
+		{
+			baloon.style.width = baloon.clientWidth - 5 + "px";
+			baloon.style.height = baloon.clientHeight - 5 + "px";
+		}
+		if (baloon.style.backgroundColor === "red" || baloon.style.backgroundColor === "")
+			baloon.style.backgroundColor = "blue";
+		else if (baloon.style.backgroundColor === "green")
+			baloon.style.backgroundColor = "red";
+		else if (baloon.style.backgroundColor === "blue")
+			baloon.style.backgroundColor = "green";
+	});
+</script>
+</body>
+</html>
